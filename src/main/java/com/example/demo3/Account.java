@@ -7,7 +7,7 @@ import javax.persistence.Table;
 //import javax.validation.constraints.NotBlank;
 
 @Entity
-@Table(name="account", schema = "abcbanking")
+@Table(name="Account", schema = "abcbanking")
 public class Account {
     @Id
     private String accountId;
